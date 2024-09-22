@@ -1,5 +1,8 @@
-//Limite de terminal para verificar o determinante com folder explorer fechado = 44, aberto = 35
-//Limite de terminal p ver matriz reduzida com folder explorer fechado = 25, aberto = 20(recomendado 19)
+/*You might want to verify the determinant on external online free arbitrary precision (unlimited by usual variable limitations
+and roundings) matrix calculators, so for that, for the input matrix, I recommend a copy/pastable input matrix, for that, 
+on VSCode, so that you avoid ''broken'' rows, with folder explorer closed and a random matrix, I recommend a max dms of 44,
+with it open, 35*/
+/*To do the same with the row echelon output matrix, I recommend a max dms of 25 for folder explorer open and 20 for it closed*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
